@@ -34,9 +34,51 @@
 </section>
 
 <!-- header section ends -->
-<div class="heading" style="background:url(./css/images/header.png) no-repeat">
-    <h1>about us</h1>
-</div>
+
+<section class="services">
+
+    <h1 class="heading-title"> our services </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./css/images/icon1.png" alt="icon of adventures">
+            <h3>adventures</h3>
+        </div>
+
+        <div class="box">
+            <img src="./css/images/icon2.png" alt="icon of tour guide">
+            <h3>tour guide</h3>
+        </div>
+
+        <div class="box">
+            <img src="./css/images/icon3.png" alt="icon of trekking">
+            <h3>trekking</h3>
+        </div>
+
+        <div class="box">
+            <img src="./css/images/icon4.png" alt="icon of camp fire">
+            <h3>camp fire</h3>
+        </div>
+
+        <div class="box">
+            <img src="./css/images/icon5.png" alt="icon of off road">
+            <h3>off road</h3>
+        </div>
+
+        <div class="box">
+            <img src="./css/images/icon6.png" alt="icon of camping">
+            <h3>camping</h3>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
 
 <!-- footer section starts -->
 <section class="footer">

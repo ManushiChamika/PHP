@@ -80,7 +80,44 @@ section{
     display: none;
 }
 
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
 
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--main-color);
+}
+
+.services .box-container .box img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.services .box-container .box:hover{
+    background: var(--black);
+}
+
+.services .box-container .box h3{
+    color:var(--white);
+    font-size:1.7rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+.heading{
+    background-size: cover;
+}
 
 .footer{
     background: url(../css/images/footer.jpg) no-repeat;

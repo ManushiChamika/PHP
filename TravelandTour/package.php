@@ -34,7 +34,7 @@
 </section>
 
 <!-- header section ends -->
-<div class="heading" style="background:url(./css/images/header2.jpg) no-repeat">
+<div class="heading" style="background:url(./css/images/header-2.jpeg)">
     <h1>package</h1>
 </div>
 
