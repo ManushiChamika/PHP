@@ -26,13 +26,17 @@
         <a href="home.php">Home</a>
         <a href="about.php">About</a>
         <a href="package.php">Package</a>
-        <a href="href.php">Book</a>
+        <a href="book.php">Book</a>
     </nav>
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
 
+<!-- header section ends -->
+<div class="heading" style="background:url(./css/images/header.png) no-repeat">
+    <h1>about us</h1>
+</div>
 
 <!-- footer section starts -->
 <section class="footer">
@@ -44,7 +48,7 @@
             <a href="home.php"><i class="fas fa-angle-right"></i>home</a>
             <a href="about.php"><i class="fas fa-angle-right"></i>About</a>
             <a href="package.php"><i class="fas fa-angle-right"></i>Package</a>
-            <a href="href.php"><i class="fas fa-angle-right"></i>Book</a>
+            <a href="book.php"><i class="fas fa-angle-right"></i>Book</a>
         </div>
 
         <div class="box">
@@ -72,6 +76,8 @@
         </div>
 
     </div>
+
+    <div class="credit">created by <span>manushi katiperachchi</span> |all rights reserved!</div>
 </section>
 
 <!-- swiper js link -->
