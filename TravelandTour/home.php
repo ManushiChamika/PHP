@@ -35,6 +35,43 @@
 
 <!-- header section ends -->
 
+<!-- home section starts -->
+
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background:url(./css/images/home_one.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel around the world</h3> 
+                    <a href="package.php" class="btn">discover mode</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(./css/images/home2.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>discover the new places</h3> 
+                    <a href="package.php" class="btn">discover mode</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(./css/images/home3.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>Make your tour worthwhile</h3> 
+                    <a href="package.php" class="btn">discover mode</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+</section>
+
+<!-- services section start -->
 <section class="services">
 
     <h1 class="heading-title"> our services </h1>
@@ -103,7 +140,7 @@
 
         <div class="box">
             <h3>Contact info</h3>
-            <a href="#"><i class="fas fa-phone"></i> +23-456-7890 </a>
+            <a href="#"><i class="fas fa-phone"></i> +123-456-7890 </a>
             <a href="#"><i class="fas fa-phone"></i> +111-222-3333 </a>
             <a href="#"><i class="fas fa-envelope"></i> manu@gmail.com </a>
             <a href="#"><i class="fas fa-map"></i> colombo, SriLanka </a>
