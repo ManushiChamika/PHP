@@ -135,7 +135,8 @@
         <div class="box">
             <div class="image">
                 <img src="">
-                <h3></h3>
+                <h3>adventures and tour</h3>
+                <p></p>
             </div>
         </div>
     </div>
