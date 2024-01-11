@@ -47,7 +47,7 @@ section{
 
 @keyframes fadeIn {
     0%{
-        transform: scale(.5);
+        transform: scale(0);
         opacity: 0;
     }
 }
@@ -139,7 +139,7 @@ section{
     font-size: 2.2rem;
     color: var(--light-white);
     padding-bottom: 1rem;
-    animation: fadeIn .4s linear backwards .2s;
+    animation: fadeIn .2s linear backwards .2s;
 }
 
 .home .slide .content h3{
@@ -149,11 +149,39 @@ section{
     line-height: 1;
     text-shadow: var(--text-shadow);
     padding:1rem 0;
-    animation: fadeIn .4s linear backwards .4s;
+    animation: fadeIn .2s linear backwards .4s;
 }
 
 .home .slide .content .btn{
-    animation: fadeIn .4s linear backwards .6s;
+    animation: fadeIn .2s linear backwards .6s;
+}
+
+/* This is  for previous and next pages arrow */
+.swiper-button-next,
+.swiper-button-prev{
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 7rem;
+    width: 7rem;
+    background: var(--white);
+    columns: var(--black);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: var(--main-color);
+    color:var(--white);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    right: inherit;
+}
+
+.home .swiper-button-prev{
+    right: 7rem;
 }
 
 .services .box-container{
@@ -184,7 +212,45 @@ section{
     padding-top: 1rem;
 }
 
+/*home about section starts*/
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.home-about .image{
+    flex:1 1 41rem;
+}
+
+.home-about .image img{
+    width: 100%;
+}
+
+.home-about .content{
+    flex:1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-about .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+/* home  about section ends */
+
+/* home packages section starts */
+
+
+
+/* home packages section ends */
 
 .heading{
     background-size: cover;
@@ -265,6 +331,9 @@ section{
     }
     section{
         padding: 3rem 2rem;
+    }
+    .home .slide .content h3{
+        font-size: 10vw;
     }
 }
 

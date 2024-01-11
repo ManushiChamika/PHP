@@ -105,11 +105,44 @@
             <img src="./css/images/icon6.png" alt="icon of camping">
             <h3>camping</h3>
         </div>
+    </div>
+</section>
+
+<!-- services section ends -->
+
+<!-- home about section starts -->
+
+<section class="home-about">
+
+    <div class="image">
+        <img src="./css/images/about1.jpg" alt="couple holding hands"/>
+    </div> 
+    
+     <div class="content">
+        <h3>about us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="about.php" class="btn">read more</a>
+    </div>
+
+</section>
+<!-- home about section ends -->
+
+<!-- home packages section starts -->
+
+<section class="home-packages">
+    <h1 class="heading"> our packages </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
 </section>
 
 
-
-
+<!-- home packages section ends -->
 
 
 
